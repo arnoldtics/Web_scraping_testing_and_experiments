@@ -35,6 +35,6 @@ for _ in range(number_of_thesis):
 
 print(thesis)
 
-data = open("data1.txt", "w", encoding="utf-8")
+data = open("tesisTotal1.txt", "w", encoding="utf-8")
 for program, year, title in thesis: data.write(f"{program}. {year}. {title}\n")
 data.close()
